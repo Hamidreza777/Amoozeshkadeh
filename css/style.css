@@ -3,10 +3,10 @@
   src: url(../font/Yekan.ttf);
 }
 @media screen and (max-width: 900px) {
-.menu{
+  .menu {
     display: none;
-}
-.line{
+  }
+  .line {
     text-align: center;
     display: flex;
     height: 4px;
@@ -15,9 +15,8 @@
     margin: 4px;
     border-radius: 2px;
     text-align: center;
+  }
 }
-}
-
 
 html {
   font-family: yekan;
@@ -65,7 +64,7 @@ nav ul li a:hover {
 .active {
   background-color: #4d4c7d;
 }
-.slider {
+#particles-js {
   background-image: url(../pic/side/2.jpg);
   height: 550px;
   width: auto;
@@ -73,16 +72,22 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
+  width: 100%;
+  text-align: center;
 }
 
-.slider p {
+/* #particles-js p {
   color: #caf0f8;
-  margin: 0px;
   text-align: center;
   padding-top: 20%;
-}
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  top: 120px;
+} */
 #search {
-  margin-top: 20px;
+  margin: auto;
+  position: absolute;
   height: 35px;
   width: 350px;
   border-radius: 25px;
@@ -90,10 +95,13 @@ nav ul li a:hover {
   font-weight: 600;
   font-family: yekan;
   border: none;
-  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-#search:focus{
+#search:focus {
   border: 1px solid blue;
   outline: none;
 }
@@ -129,3 +137,9 @@ nav ul li a:hover {
   background: linear-gradient(rgba(81, 0, 255, 0.158), rgba(0, 0, 255, 0.107));
 }
 
+footer {
+  height: 50px;
+  width: auto;
+  background-color: #251d3a;
+  color: azure;
+}
