@@ -33,6 +33,7 @@ nav {
   height: 50px;
   width: 100%;
   background-color: #251d3a;
+  z-index: 1;
 }
 
 nav ul {
@@ -99,6 +100,7 @@ nav ul li a:hover {
   left: 0;
   bottom: 0;
   right: 0;
+ 
 }
 
 #search:focus {
